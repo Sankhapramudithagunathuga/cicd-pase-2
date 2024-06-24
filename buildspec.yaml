@@ -12,11 +12,11 @@ phases:
   build:
     commands:
       - echo Downloading the .zip file from S3...
-      - aws s3 cp s3://test-pack-s3-12345/p8-deployments-carbonplace-3.3.0.zip
+      - wget s3://test-pack-s3-12345/p8-deployments-carbonplace-3.3.0.zip
       - sudo mkdir cicd
       - cd cicd
       - echo Unzipping the file...
-      - unzip p8-deployments-carbonplace-3.3.0.zip -d /cicd
+      - unzip p8-deployments-carbonplace-3.3.0.zip
 
 artifacts:
   files:
