@@ -6,10 +6,9 @@ phases:
       python: 3.x
     commands:
       - echo Installing dependencies...
-      - apt-get update -y
-      - apt-get install -y unzip
-      - apt install python3-pip
-      - pip install awscli
+      - yum update -y
+      - yum install -y unzip
+     
       
 
   build:
