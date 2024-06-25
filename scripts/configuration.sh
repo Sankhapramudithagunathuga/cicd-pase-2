@@ -1,4 +1,4 @@
-sudo yum update -y && sudo yum install -y unzip
+sudo apt-get update -y && sudo apt-get install -y unzip
 
 #unlink p8-deployments
 
