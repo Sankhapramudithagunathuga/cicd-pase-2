@@ -2,7 +2,7 @@ sudo apt-get update -y && sudo apt-get install -y unzip
 
 #unlink p8-deployments
 
-ws s3 cp s3://test-pack-s3-123456/p8-deployments-carbonplace-4.0.0.tar.gz .
+aws s3 cp s3://test-pack-s3-123456/p8-deployments-carbonplace-4.0.0.tar.gz .
 
 tar -xvf p8-deployments-carbonplace-4.0.0.tar.gz
 
