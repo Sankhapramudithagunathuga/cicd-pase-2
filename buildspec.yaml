@@ -19,7 +19,7 @@ phases:
       - echo Unzipping the file...
       - unzip p8-deployments-carbonplace-3.3.0.zip
       - ln -s /home/ubuntu/p8/p8-deployments-carbonplace-3.3.0 p8-deployments
-      - mv p8-deployments p8-deployments-3.3.0
+      
 
 artifacts:
   files:
