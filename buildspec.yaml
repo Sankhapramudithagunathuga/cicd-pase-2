@@ -15,9 +15,11 @@ phases:
     commands:
       - echo Downloading the .zip file from S3...
       #- unlink p8-deployments
-      - aws s3 cp s3://test-pack-s3-123456/p8-deployments-carbonplace-3.3.0.zip .
+      - aws s3 cp s3://test-pack-s3-123456/p8-deployments-carbonplace-4.0.0.tar.gz .
       - echo Unzipping the file...
-      - unzip p8-deployments-carbonplace-3.3.0.zip
+      - tar -xvf p8-deployments-carbonplace-4.0.0.tar.gz
+      - mv p8-deployments p8-deployments-carbonplace-4.0.0
+      - ln -s /home/ubuntu/p8/p8-deployments-carbonplace-4.0.0 p8-deployments
       #- mv p8-deployments p8-deployments-3.3.0
       #- ln -s /home/ubuntu/p8/p8-deployments-carbonplace-3.3.0 p8-deployments
       #- export P8_IM_SCRIPT_PATH=p8/p8-deployments/scripts
