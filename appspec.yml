@@ -2,7 +2,7 @@ version: 0.0
 os: linux                  
 files:                     
   - source: /               
-    destination: /home/ec2-user/p8
+    destination: /home/ec2-user/p9
 hooks:                   
   AfterInstall:          
     - location: scripts/configuration.sh
