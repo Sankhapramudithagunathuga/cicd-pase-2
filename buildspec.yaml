@@ -19,6 +19,7 @@ phases:
       - echo Unzipping the file...
       - tar -xvf p8-deployments-carbonplace-4.0.0.tar.gz
       - mv p8-deployments p8-deployments-carbonplace-4.0.0
+      - cd /home/ubuntu/p8
       - sudo ln -s /home/ubuntu/p8/p8-deployments-carbonplace-4.0.0 p8-deployments
       #- mv p8-deployments p8-deployments-3.3.0
       #- ln -s /home/ubuntu/p8/p8-deployments-carbonplace-3.3.0 p8-deployments
