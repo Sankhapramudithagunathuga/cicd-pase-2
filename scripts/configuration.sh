@@ -8,6 +8,8 @@ unzip p8-deployments-carbonplace-3.3.0.zip
 
 # # mv p8-deployments p8-deployments-3.3.0
 ln -s /home/ubuntu/p8/p8-deployments-carbonplace-3.3.0 p8-deployments
+#export P8_IM_SCRIPT_PATH=p8/p8-deployments/scripts
+
 
 
 
