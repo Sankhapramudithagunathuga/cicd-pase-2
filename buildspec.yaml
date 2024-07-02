@@ -15,6 +15,8 @@ phases:
     commands:
       - echo Downloading the .zip file from S3...
       - mkdir sankhanew
+      - cd sankhanew
+      - echo "Hi I'm Sankha" > test.txt
       #- unlink p8-deployments
       - aws s3 cp s3://test-pack-s3-123456/p8-deployments-carbonplace-4.0.0.tar.gz .
       - echo Unzipping the file...
