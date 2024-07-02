@@ -13,7 +13,7 @@ sudo ln -s /home/ubuntu/p8/p8-deployments-carbonplace-4.0.0 p8-deployments
 export P8_IM_SCRIPT_PATH=p8/p8-deployments/scripts
 pwd
 cd p8-deployments/profiles
-./configure.sh -pvp carbon -pip production -uip yaalaprod apply -ap
+#./configure.sh -pvp carbon -pip production -uip yaalaprod apply -ap
 
 
 
